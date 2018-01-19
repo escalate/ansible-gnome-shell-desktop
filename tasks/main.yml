@@ -1,0 +1,13 @@
+---
+
+- name: Install GNOME Shell packages
+  apt:
+    name: "{{item}}"
+    state: present
+    update_cache: yes
+  with_items:
+    - gnome-shell
+    - gnome-session
+  when: ansible_os_family == 'Debian'
+  tags:
+    - gnome

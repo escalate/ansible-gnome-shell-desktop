@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Felix Boerner
+  description: Manage GNOME Shell desktop environment installation
+  company: Felix Boerner
+  license: MIT
+  min_ansible_version: 2.3
+  github_branch: master
+  platforms:
+   - name: Ubuntu
+     versions:
+       - xenial
+  galaxy_tags:
+    - gnome
+    - shell
+    - gtk
+    - desktop
+dependencies: []
